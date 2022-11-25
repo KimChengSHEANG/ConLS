@@ -4,11 +4,11 @@
 
 
 
-## Requirements
+## **Requirements**
 
 * Tested with Python 3.7.5
 
-**Step1**. Install PyTorch follow this link: https://pytorch.org/get-started/locally/
+**Step1**. Install PyTorch: https://pytorch.org/get-started/locally/
 
 ```bash
 # E.g., Linux, pip, NVidia GPU CUDA 11.7
@@ -20,17 +20,26 @@ pip3 install torch torchvision torchaudio
 ```bash
 pip install -r requirements.txt
 ```
+<br>
+<br>
 
 
 
+## **Train and Evaluate**
 
-## Evaluating our pre-trained model
+```
+python train_and_eval_T5-large.py
+```
+
+<br>
+<br>
 
 
+## **Run evaluation using the last trained model**
 
-
-
-## Run training and evaluation
+```
+python evaluate.py
+```
 
 
 

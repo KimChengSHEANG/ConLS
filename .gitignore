@@ -4,6 +4,7 @@ dumps/
 cache/
 */cache/
 experiments/
+.vscode/
 backup_experiments/
 */lightning_logs/
 lightning_logs/
