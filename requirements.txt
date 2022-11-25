@@ -1,0 +1,25 @@
+
+#Install pytorch GPU version, e.g.,
+#pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+
+transformers==4.6.1
+pytorch_lightning==1.6.4
+GitPython==3.1.0
+# fasttext==0.9.2
+#sacrebleu==1.4.3
+
+python_Levenshtein==0.12.0
+spacy==3.3.1
+sentencepiece==0.1.95
+python-magic==0.4.24 # detect file encoding
+pandas==0.25.1
+tqdm==4.64.0
+wordfreq==2.5.1
+optuna==2.10.0
+optuna-dashboard==0.5.0
+tensorboard==2.9.1
+wandb==0.10.30
+pyhyphen==3.0.1
+nltk==3.4.5
+ftfy
